@@ -1,2 +1,19 @@
-kskbl，zdjd，wkzkbl
-hanghang
+git config --global username ""                -- 设置用户名
+git config --global useremail ""                -- 设置用户邮箱
+touch ~/.bashrc                               -- 为常用指令配置别名
+git init                                          -- 初始化当前目录为一个git仓库
+git add .                            -- 添加工作区到暂存区
+git commit -m ""               -- 提交暂存区到本地仓库并注释
+git push -u origin master                 -- 第一次推送上传到git仓库
+git push                             -- 将所有修改上传到已关联的git仓库
+git branch                               --查看分支
+git branch 分支名                    --创建分支
+git branch -d 分支名               -- 删除分支
+git merge 分支名                    -- 合并分支
+git checkout 分支名                -- 切换分支
+git reset --hard           -- 返回上一步
+git-log                      -- 查看日志
+git status                  -- 查看修改状态
+git pull                                             -- 下载远程仓库最新的代码，并合并到当前分支
+git remote add gitee git@gitee.com:zhan-jiabin6665/git_test.git             -- 添加远程仓库
+git remote -v                     -- 查看远程仓库

@@ -1,3 +1,5 @@
+git remote add gitee git@gitee.com:zhan-jiabin6665/git_test.git             -- 添加远程仓库
+git remote -v                                                                                        -- 查看远程仓库
 git config --global username ""                -- 设置用户名
 git config --global useremail ""                -- 设置用户邮箱
 touch ~/.bashrc                               -- 为常用指令配置别名
@@ -15,5 +17,3 @@ git reset --hard           -- 返回上一步
 git-log                      -- 查看日志
 git status                  -- 查看修改状态
 git pull                                             -- 下载远程仓库最新的代码，并合并到当前分支
-git remote add gitee git@gitee.com:zhan-jiabin6665/git_test.git             -- 添加远程仓库
-git remote -v                     -- 查看远程仓库
